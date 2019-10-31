@@ -1,0 +1,143 @@
+html {
+    margin: 0;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    margin: 0%;
+    top: 0%;
+    right: 0%;
+}
+
+.portfolio-hero {
+    background: url(autodetailingshop.jpg) no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    color: black
+}
+
+.portfolio-menu ul{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
+
+.portfolio-menu ul li{
+    margin: 0px 10px;
+    list-style: none;
+}
+
+.portfolio-menu .menu-item a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.portfolio-profile{
+    width:  650px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    
+
+}
+
+.portfolio-profile img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+
+}
+
+.portfolio-profile h1{
+    font-weight: 300;
+    margin: 50px;
+    font-size: 2rem;
+    color: black;
+}
+
+.portfolio-profile h2{
+    background-color: transparent;
+    font-weight: 300;
+    margin: -50px;
+    font-size: 2rem;
+    color: black
+}
+
+main{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+#About {
+    font-size: 2rem;
+    margin: 1px;
+    padding: 0px;
+    color: black;
+
+}
+
+#About h2 {
+    background-color: gray;
+    margin: 50px;
+    
+    
+}
+
+#About p {
+    border-style: solid;
+    background-color:white;
+    padding: 0.1px;
+    margin: 100px;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+#skills {
+    color: black;
+    background-color: white;
+    border-style: solid;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin: 20px 0px;
+    text-underline-position: above;
+
+}
+
+#skills h3 {
+    font-size: 2rem;
+}
+
+.skill-main-grid1 {
+    text-align: center;
+    display: grid;
+
+}
+
+.skill-main-grid2 {
+    border-style: solid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.portfolio-form h2 {
+    text-align: center;
+    color: red;
+    
+}
+
